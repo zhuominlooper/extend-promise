@@ -1,0 +1,36 @@
+{
+  "name": "extend-promise",
+  "version": "1.0.0",
+  "createTime": "2021/10/17",
+  "description": "This is a third-party library that extends Promise",
+  "types": "types/index.d.ts",
+  "author": "looper.zhuo",
+  "license": "ISC",
+  "keywords": [
+    "promise",
+    "node",
+    "webpack"
+  ],
+  "github": {
+    "url": "https://github.com/zhuominlooper/2021-javascript/tree/dev",
+    "branch": "dev"
+  },
+  "main": "index.js",
+  "scripts": {
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major",
+    "lint": "eslint lib/*",
+    "build:umd": "cross-env NODE_ENV=umd webpack",
+    "build:umd:min": "cross-env NODE_ENV=umd:min webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.0.1",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
