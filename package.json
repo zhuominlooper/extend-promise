@@ -1,5 +1,5 @@
 {
-  "name": "extend-promise",
+  "name": "extend-promise-fun",
   "version": "1.0.0",
   "createTime": "2021/10/17",
   "description": "This is a third-party library that extends Promise",
