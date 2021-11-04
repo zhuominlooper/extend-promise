@@ -3,7 +3,6 @@ node_js:
   - 14
 deploy:
   on:
-    # 表示在dev分支不走CI
     branch: dev
 cache:
   directories:
@@ -19,4 +18,4 @@ scripts:
   - npm run test
   - npm run test:coveralls
   - npm run build:umd:min
-  - npm publish
+  - npm run publish
