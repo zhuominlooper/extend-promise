@@ -3,7 +3,7 @@ node_js:
   - 14
 deploy:
   on:
-    branch: main
+    branch: dev
 cache:
   directories:
     - node_modules
