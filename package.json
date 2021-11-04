@@ -9,7 +9,8 @@
   "keywords": [
     "promise",
     "node",
-    "webpack"
+    "webpack",
+    "customer"
   ],
   "github": {
     "url": "https://github.com/zhuominlooper/2021-javascript/tree/dev",
