@@ -1,6 +1,6 @@
 {
   "name": "extend-promise-fun",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "createTime": "2021/10/17",
   "description": "This is a third-party library that extends Promise",
   "types": "types/index.d.ts",
@@ -9,8 +9,7 @@
   "keywords": [
     "promise",
     "node",
-    "webpack",
-    "customer"
+    "webpack"
   ],
   "github": {
     "url": "https://github.com/zhuominlooper/2021-javascript/tree/dev",

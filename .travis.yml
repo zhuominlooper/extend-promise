@@ -14,6 +14,7 @@ before_install:
 install:
   - npm install
 scripts:
+  - npm cache clean --force
   - npm run lint
   - npm run build:umd:min
   - npm version patch
