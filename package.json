@@ -1,6 +1,6 @@
 {
   "name": "extend-promise-fun",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "createTime": "2021/10/17",
   "description": "This is a third-party library that extends Promise",
   "types": "types/index.d.ts",
@@ -8,14 +8,16 @@
   "license": "ISC",
   "keywords": [
     "promise",
+    "test",
+    "function",
     "node",
     "webpack"
   ],
   "github": {
-    "url": "https://github.com/zhuominlooper/2021-javascript/tree/dev",
-    "branch": "dev"
+    "url": "https://github.com/zhuominlooper/extend-promise",
+    "branch": "main"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "patch": "npm version patch",
     "minor": "npm version minor",
