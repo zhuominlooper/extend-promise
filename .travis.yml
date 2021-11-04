@@ -4,7 +4,7 @@ node_js:
 deploy:
   on:
     # 表示在dev分支不走CI
-    branch: mian
+    branch: dev
 cache:
   directories:
     - node_modules
@@ -19,5 +19,4 @@ scripts:
   - npm run test
   - npm run test:coveralls
   - npm run build:umd:min
-  - npm run patch
   - npm publish
