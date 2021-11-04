@@ -2,7 +2,8 @@ language: node_js
 node_js:
   - 14
 branches:
-  only:
+  # 只在main分支push的时候触发
+  only: 
   - main
 cache:
   directories:
@@ -18,4 +19,4 @@ scripts:
   - npm run test
   - npm run test:coveralls
   - npm run build:umd:min
-  - npm run publish
+  - npm publish
