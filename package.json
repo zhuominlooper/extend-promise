@@ -1,6 +1,6 @@
 {
   "name": "extend-promise-fun",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "createTime": "2021/10/17",
   "description": "This is a third-party library that extends Promise",
   "types": "types/index.d.ts",
@@ -42,5 +42,8 @@
     "nyc": "^15.1.0",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "dts-generator": "^3.0.0"
   }
 }
