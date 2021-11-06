@@ -1,5 +1,3 @@
-import { MyPromise } from "./index.d";
-
 /**
  * promise的构造函数
  * @param executor function
@@ -57,9 +55,9 @@ export class MyPromiseInstance {
   /**
    * promise的rejectDelay实现方法
    * @param cb Function
-   * @returns viod
+   * @returns void
    */
-  finally<T = Function>(cb: T): viod;
+  finally<T = Function>(cb: T): void;
 }
 
 /*
